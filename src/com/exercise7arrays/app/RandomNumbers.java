@@ -29,12 +29,12 @@ public class RandomNumbers {
 		for(int i=0; i<ELEMENTS_ARRAY;i++)
 		{
 			generatedNumber = randomNumbers.nextDouble();
-			System.out.println(generatedNumber);
+		System.out.println(generatedNumber);
 			
 		}
 		for(int i=0; i<ELEMENTS_ARRAY;i++)
 		{
-			generatedNumberInt = randomNumbers.nextInt(51)+50;
+			generatedNumberInt = randomNumbers.nextInt(50)+50;
 			System.out.println(generatedNumberInt);
 			
 		}
@@ -45,8 +45,8 @@ public class RandomNumbers {
 		
 		for (int i=0;i<ELEMENTS_ARRAY; i++)
 		{
-			generatedNumber = (int)(Math.random()*50 +50);
-			//generatedNumberInt=(int)generatedNumber;
+			generatedNumber = ((Math.random())*50) +50;
+			generatedNumberInt=(int)generatedNumber;
 			System.out.println(generatedNumberInt);
 					
 		}

@@ -39,7 +39,7 @@ public class primosArray {
 		}
 		}
 		
-		System.out.println("Quanity of prime numbers is:" + primeNumbers);
+		System.out.println("Quantity of prime numbers is:" + primeNumbers);
 		
 		
 	}
